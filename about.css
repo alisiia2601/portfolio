@@ -233,13 +233,13 @@
 }
 
 .card:nth-child(2), .card:nth-child(2):before{
-    background: #ff4f4f;
+    background: #948282;
 }
 .card:nth-child(3), .card:nth-child(3):before{
-    background: #ffb84f;
+    background: #a39076;
 }
 .card:nth-child(4), .card:nth-child(4):before{
-    background: #3dca5c;
+    background: #5e5446;
 }
 .card:nth-child(5), .card:nth-child(5):before{
     background: #565252;
