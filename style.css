@@ -47,6 +47,9 @@ body{
 
 /* part two (home)*/
 
+
+
+
 .home-section{
     width: 100%;
     height: 100vh;
@@ -58,6 +61,17 @@ body{
     opacity: 0;
     transition: 1s;
 }
+
+.hero-location{
+    position: absolute;
+    top: 710px;
+    left: 85px;  
+    color: #000000;  
+    background: linear-gradient(to right, #303231, #435852);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .hero-heading{
     color: #fff;
     font-size: 100px;
