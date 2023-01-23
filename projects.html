@@ -7,10 +7,11 @@
     
 <link rel="stylesheet" href="projects.css">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="qc.slider.scss">
 
-<script src="/path/to/cdn/jquery.min.js"></script>
-
-
+<script src="jquery-3.6.1.js"></script>
+ <!--<script src="/path/to/cdn/jquery.min.js"></script> -->
+<script src="qcslider.jquery.js"></script>
 <script src="app.js"></script>
 
     <title>Projects</title>
@@ -21,9 +22,17 @@
 <nav class="navbar">
     <ul class="link-group">
         <li class="link"><a href="index.html">home</a></li>
-        <li class="link active"><a href="#">projects</a></li>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Click here to explore the projects</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="https://alisiia2601.github.io/assignment-3/"  target="_blank">Hangman game </a>
+              <a href="https://alisiia2601.github.io/assignment1/" target="_blank">Designed WebSite</a>
+              <a href="#">Website connection to API</a>
+            </div>
+          </div>
+       <!-- <li class="link active"><a href="#">projects</a></li> -->
         <li class="link"><a href="about.html">about</a></li>
-        <li class="link"><a href="#">contact</a></li>
+        <li class="link"><a href="contact.html">contact</a></li>
     </ul>
 </nav>
 
@@ -59,8 +68,59 @@
                 </div>
             </div>
         </div>
+
+        <div class="project-card">
+            <img src="photo_2023-01-17_00-12-28.jpg" class="project-img" alt="project1">
+            <div class="project-content">
+                <h1 class="project-title">project 03</h1>
+                <p class="project-info">
+                    Choose one of two options
+                </p>
+                <div class="project-btn-grp">
+                    <button class="project-btn github"> <a href="https://github.com/alisiia2601/Webpage-connecting-to-an-API" target="_blank"> github repo </a></button>
+                    <button class="project-btn live"> <a href="https://alisiia2601.github.io/Webpage-connecting-to-an-API/" target="_blank" > see live </a></button>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+
+
+
+<!--  JQuery Carousel section   -->
+
+<section class="slide">
+    <div class="slider-container">
+      <ul class="slider-wrapper" id="slider">
+        <li class="slide-current">
+          <!-- Image -->
+          <img src="paniq1.jpg"/>
+          <!-- Image Description -->
+          <div class="capa">Some of print screens from my work</div>
+        </li>
+
+        <li class="slide">
+            <!-- Image -->
+            <img src="paniq2.jpg"/>
+            <!-- Image Description -->
+            <div class="capa">Some of print screens from my work</div>
+          </li>
+
+          <li class="slide">
+            <!-- Image -->
+            <img src="paniq3.jpg"/>
+            <!-- Image Description -->
+            <div class="capa">Some of print screens from my work</div>
+          </li>
+      </ul>
+      <!-- Nav controls -->
+      <div class="drt-control control-left" id="lft-control"></div>
+      <div class="drt-control control-right" id="rht-control"></div>
+      <ul class="slider-controls" id="slider-controls"></ul>
+      <!-- Progressbar -->
+      <div class="tempo-bar" id="barra"></div>
+    </div>
+  </section>
 </body>
 </html>
 
