@@ -6,7 +6,7 @@ On mobile, however, it's not responsive and that's the very first thing people c
 
 As you see below, you've got most things covered....however the lack of responsiveness is a huge issue. The other things -  eg the project organisation, the h1s and prefixing - are pretty quick fixes. The locally installed font takes a bit more time but isn't so complex.
 
-So even though the site looks great, I have to be consistent withh everyone else in thel cass so I can't give you a Godkänt unless it's responsive to some degree. Fix the responsiveness - ie make it adapt to mobiles and you have the G.
+So even though the site looks great, I have to be consistent withh everyone else in the class so I can't give you a Godkänt unless it's responsive to some degree. Fix the responsiveness - ie make it adapt to mobiles and you have the G.
 
 Fix the font & typography and make some folders for the files and run the css through the prefixer link I pasted below and you'll get the VG.
 
