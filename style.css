@@ -1,9 +1,12 @@
-*{
+
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     width: 100%;
     max-width: 1400px;
     display: block;
@@ -12,8 +15,7 @@ body{
     background: #191919;
     font-family: sans-serif;
 }
-
-.navbar{
+.navbar {
     width: 100%;
     position: fixed;
     top: 0;
@@ -24,30 +26,48 @@ body{
     z-index: 9;
     background: #1a1a1a;
 }
-.link-group{
+.link-group {
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 30px;
 }
-
-
-.link a{
+.link {
+    margin: 0 10px;
+}
+.link a {
     color: #fff;
     opacity: 0.5;
     text-decoration: none;
     text-transform: capitalize;
-    padding: 10px 30px;
-    margin: 0 20px;
+    padding: 10px 20px;
     line-height: 80px;
-    transition: .5s;
+    transition: 0.5s;
     font-size: 20px;
 }
-.link a:hover, .link.active a{
+.link a:hover,
+.link.active a {
     opacity: 1;
 }
 
+/* Responsive styles */
+@media screen and (max-width: 767px) {
+    .link-group {
+        justify-content: center;
+        padding: 0;
+    }
+    .link {
+        margin: 10px 0;
+    }
+}
+
+
+
+
+
 /* part two (home)*/
-
-
 
 
 .home-section{
