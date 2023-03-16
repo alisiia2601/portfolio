@@ -162,3 +162,105 @@
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+
+/* For screens smaller than 600px (mobile devices) */
+@media only screen and (max-width: 600px) {
+    .project-card {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .project-img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .project-content {
+      text-align: center;
+    }
+    
+    .project-btn-grp {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1rem;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .slider-wrapper li {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+    .capa {
+      position: static;
+      margin-top: 1rem;
+    }
+  }
+  
+  /* For screens smaller than 600px (mobile devices) */
+@media only screen and (max-width: 600px) {
+    .slide {
+      overflow: hidden;
+    }
+    
+    .slider-container {
+      width: 100%;
+      position: relative;
+      margin: 0 auto;
+    }
+    
+    .slider-wrapper {
+      width: 300%;
+      position: relative;
+      left: 0;
+      transition: left 0.5s ease;
+    }
+    
+    .slider-wrapper li {
+      float: left;
+      width: 33.33%;
+      height: auto;
+    }
+    
+    .slider-wrapper img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .capa {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      padding: 10px;
+      width: 100%;
+      font-size: 16px;
+    }
+    
+    .drt-control {
+      display: none;
+    }
+    
+    .slider-controls {
+      display: none;
+    }
+    
+    .tempo-bar {
+      display: none;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .project-heading {
+    font-size: 2rem;
+    text-align: center;
+    }
+    }
+  
